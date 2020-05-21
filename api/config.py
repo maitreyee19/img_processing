@@ -1,10 +1,11 @@
 import os
 
 prod_info ={
-    "path": "/var/www",
+    "UPLOAD_FOLDER": "./stg_dir",
     "ip": "192.168.1.44",
     "login": "myapp",
-    "password": "aunriseqvoa"
+    "password": "aunriseqvoa",
+    "feature_data_dir": "./feature_data"
 }
 
 dev_info={
